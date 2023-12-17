@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Outfit:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f743fd;
+    font-size: 14px;
+    font-family: 'Amaranth', sans-serif;
+font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin:50px auto;
+}
+
+.contact-box{
+    background-color: white;
+    display: flex;
+}
+
+.left-contact{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.right-contact{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: #b5008e;
+    color: white;
+}
+.container h1{
+    margin-bottom: 15px;
+}
+.container p{
+    margin-bottom: 10px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} 
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 4px;
+}
+textarea{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 4px;
+}
+
+lable{
+    display: block;
+    margin-bottom: 5px;
+    color: #b5008e;
+}
+
+.left-contact h3{
+     color: #b5008e;
+     margin-bottom: 30px;
+     font-weight: 300px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+    width: 70px;
+}
